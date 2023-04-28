@@ -10,9 +10,29 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
       },
+      height: {
+        screen: 'var(--100vh, 100vh)'
+      },
+      minHeight: {
+        screen: 'var(--100vh, 100vh)'
+      },
+      maxHeight: {
+        screen: 'var(--100vh, 100vh)'
+      }
     },
+    colors: {
+      bgColor: '#161616',
+      white: '#FFFFFF',
+      grey: {
+        light: "#8A8A8A"
+      }
+    }
+  },
+  fontFamily: {
+    roboto: ['Roboto', 'sans-serif'],
+    nordique: ['nordique', 'roboto']
   },
   plugins: [],
 }
