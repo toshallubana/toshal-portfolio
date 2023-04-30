@@ -23,16 +23,25 @@ module.exports = {
       }
     },
     colors: {
+      mainTheme: '#8A8A8A',
       bgColor: '#161616',
       white: '#FFFFFF',
       grey: {
         light: "#8A8A8A"
       }
-    }
+    },
+    screens: {
+      '2xl': { max: '1535px' },
+      xl: { max: '1279px' },
+      lg: { max: '1092px' },
+      md: { max: '767px' },
+      sm: { max: '639px' }
+    },
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'],
+      nordique: ['nordique', 'roboto']
+    },
   },
-  fontFamily: {
-    roboto: ['Roboto', 'sans-serif'],
-    nordique: ['nordique', 'roboto']
-  },
-  plugins: [],
+  
+  plugins: [require('daisyui')],
 }
