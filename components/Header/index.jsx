@@ -31,12 +31,12 @@ const Header = () => {
 
     return (
         <>
-            <div className="m-w-[1140px] mx-auto lg:hidden" 
+            <div className="w-[1140px] mx-auto lg:hidden items-center" 
                 ref={(e) => {
                     linkRefs.current[0] = e;
                 }}
             >
-                <div className="flex mx-auto items-center justify-around">
+                <div className="flex mx-auto items-center justify-between">
                     <div className="">
                         <a href="mailto:toshal.t1@gmail.com" target="_blank" className="flex items-center py-4">
                             <span>
@@ -59,7 +59,7 @@ const Header = () => {
                         </span>
                     </div>
                 </div>
-                <div className="border-b-2 text-grey-light"></div>
+                <div className="flex mx-auto items-center border-b-[0.2px] w-[1140px] text-grey-light"></div>
             </div>
             <HamburgerMenu />
         </>

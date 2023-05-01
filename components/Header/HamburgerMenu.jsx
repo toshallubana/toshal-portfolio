@@ -64,6 +64,7 @@ const HamburgerMenu = () => {
           { 'h-0': !isActive },
           { 'h-[calc(100vh_-_80px)]': isActive },
           { 'h-auto': isActive },
+          {'bg-bgColor': isActive},
             'w-screen top-[80px] max-h-[calc(100vh_-_80px)]'
         )}>
             <div

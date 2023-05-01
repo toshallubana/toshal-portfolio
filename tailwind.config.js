@@ -27,7 +27,8 @@ module.exports = {
       bgColor: '#161616',
       white: '#FFFFFF',
       grey: {
-        light: "#8A8A8A"
+        light: "#8A8A8A",
+        dark: '#1A1A1A'
       }
     },
     screens: {
