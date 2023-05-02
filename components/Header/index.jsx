@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { gsap, Power4 } from 'gsap';
-import HamburgerMenu from './HamburgerMenu';
 
 const Header = () => {
     const isAnimatedPlayed = useRef(false);
@@ -31,7 +30,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="w-[1140px] mx-auto lg:hidden items-center" 
+            <div className="px-20 mx-auto items-center" 
                 ref={(e) => {
                     linkRefs.current[0] = e;
                 }}
@@ -59,9 +58,8 @@ const Header = () => {
                         </span>
                     </div>
                 </div>
-                <div className="flex mx-auto items-center border-b-[0.2px] w-[1140px] text-grey-light"></div>
+                <div className="flex mx-auto items-center border-b-[0.2px] text-grey-light"></div>
             </div>
-            <HamburgerMenu />
         </>
     )
 }
