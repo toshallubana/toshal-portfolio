@@ -47,10 +47,12 @@ const Profile = () => {
                 border-[1px] mt-12 md:mt-6
             '>
                 <div class='flex justify-center items-center h-full text-grey-light text-lg'>
-                    <p>Latest Shots</p>
-                     <span className='ml-2.5'>
-                        <img src="/images/arrow.svg" />
-                    </span>
+                    <a href="/images/toshal-resume.pdf" download className='flex items-center'>
+                        <p>Resume</p>
+                        <span className='ml-2.5'>
+                            <img src="/images/arrow.svg" />
+                        </span>
+                    </a>
                 </div>
             </div>
 
