@@ -53,7 +53,7 @@ const Description = () => {
     }, []);
 
     return (
-        <div className="flex flex-col p-20 lg:p-15 md:p-10 items-center	" ref={
+        <div className="flex flex-col px-20 lg:px-15 md:px-10 items-center	" ref={
             (e) => cardRef.current[0] = e
         } id="description">
             <div className="flex justify-center text-center">

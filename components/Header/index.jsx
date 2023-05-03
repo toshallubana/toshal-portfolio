@@ -30,7 +30,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="px-20 mx-auto items-center" 
+            <div className="px-20 lg:p-15 md:px-10 sm:px-2 mx-auto items-center" 
                 ref={(e) => {
                     linkRefs.current[0] = e;
                 }}
@@ -45,16 +45,25 @@ const Header = () => {
                         </a>
                     </div>
                     <div className="flex items-center ">
-                        <span>
-                            <a href="https://www.linkedin.com/in/toshal-lubana-79419a181/" target="_blank" className="text-grey-light">LinkedIn</a>
+                        <span className='flex items-center'>
+                            <a href="https://www.linkedin.com/in/toshal-lubana-79419a181/" target="_blank" className="text-grey-light lg:hidden">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/toshal-lubana-79419a181/" target="_blank" className="text-grey-light">
+                                <img src="/images/linkedin.svg" className='w-[25px] h-[25px] ml-4' />
+                            </a>
                         </span>
                         <span className="text-grey-light">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-                        <span>
-                            <a href="https://github.com/toshallubana" target="_blank" className="text-grey-light">GitHub</a>
+                        <span className='flex items-center'>
+                            <a href="https://github.com/toshallubana" target="_blank" className="text-grey-light lg:hidden">GitHub</a>
+                            <a href="https://github.com/toshallubana" target="_blank" className="text-grey-light">
+                                <img src="/images/github.svg" className='w-[25px] h-[25px] ml-4' />
+                            </a>
                         </span>
                         <span className="text-grey-light">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-                        <span>
-                            <a href="https://instagram.com/tushar_lubana?igshid=ZDdkNTZiNTM=" target="_blank" className="text-grey-light">Instagram</a>
+                        <span className='flex items-center'>
+                            <a href="https://instagram.com/tushar_lubana?igshid=ZDdkNTZiNTM=" target="_blank" className="text-grey-light lg:hidden">Instagram</a>
+                            <a href="https://instagram.com/tushar_lubana?igshid=ZDdkNTZiNTM=" target="_blank" className="text-grey-light">
+                                <img src="/images/instagram.svg" className=' w-[25px] h-[25px] ml-4' />
+                            </a>
                         </span>
                     </div>
                 </div>
