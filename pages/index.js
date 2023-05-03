@@ -4,7 +4,7 @@ import Profile from '@/components/Home';
 import WorkLogo from '@/components/WorkLogo'
 import Description from '@/components/Description';
 import Contact from '@/components/Contact';
-import Education from '@/components/Education';
+import Experience from '@/components/Experience';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +18,7 @@ const Home = () => {
         {/* <WorkLogo /> */}
         <Description />
         <Contact />
-        <Education />
+        <Experience />
     </div>
   )
 }
